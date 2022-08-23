@@ -1,0 +1,83 @@
+body {
+    font-family: Arial;
+    padding: 20px;
+    background: #f1f1f1;
+  }
+  
+  /* Header/Blog Title */
+  .header {
+    padding: 30px;
+
+  }
+  
+  /* Create two unequal columns that floats next to each other */
+  /* Left column */
+  .leftcolumn {
+    float: left;
+    width: 60%;
+  }
+  
+  /* Right column */
+  .rightcolumn {
+    float: left;
+    width: 25%;
+    padding-left: 20px;
+  }
+  
+
+  
+  /* Add a card effect for articles */
+  .card {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  .top{
+  padding: 0;
+  }
+ .card-header{
+    
+ }
+  
+ .logo{
+  width: 20%;
+ }
+ .intro{
+padding-top: 10px; }
+
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .lista{
+    padding: 20px;
+  }
+  .tags{
+    margin-bottom: 5px;
+    margin-left: 10px;
+    background-color: #aaa;
+    padding: 6px;
+    display: inline-block;
+  }
+  .popular-img{
+    width:70px;
+    height: 70px;
+    border-radius: 10px;
+    margin-left: -5px;
+  }
+  .left-img{
+    width: 920px;
+    height: 500px;
+  }
+  
+  
+  
+  @media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {
+      width: 100%;
+      padding: 0;
+    }
+  }
